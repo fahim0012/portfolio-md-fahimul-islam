@@ -110,7 +110,7 @@
 .header .brand-name{
     font-size: 38px;
     font-weight: 800;
-    margin: 15px 10px;
+    margin: 0px 0px;
     color: #34495e;
 }
 .header .brand-name span{
@@ -185,10 +185,10 @@
     margin-top: -5px;
 }
 .header-image img{
-    width: 60px;
-    height: 70px;
+    width: 57px;
+    height: 57px;
     border-radius: 50%;
-    margin: 0 0px 0 30px;
+    margin: 6px 0px 0 28px;
 }
 
 /* Main header design end */
