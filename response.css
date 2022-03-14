@@ -1,0 +1,775 @@
+@media only screen and (max-width: 768px){
+    /* top header area responsive design end */
+        .header-top .header-logo{
+                width: 10%;
+                float: left;
+                box-sizing: border-box;
+            }
+            .header-top .header-logo img{
+                margin: 0 0;
+                height: 40px;
+                width: 40px;
+            }
+            .header-contact-info {
+                width: 90%;
+                margin: 0px auto;
+            }
+            .email-details{
+                width: 17%;
+                margin: 0 0px;
+            }
+            .phone-details{
+                width: 19%;
+            }
+            .skype-address{
+                width: 18%;
+            }
+            .facebook-address{
+                width: 19%;
+            }
+            .email-details{
+                width: 27%;
+            }
+            .header-contact-info .phone-book i,
+            .header-contact-info .email-book i,
+            .header-contact-info .facebook-id i,
+            .header-contact-info .skype-id i
+            {
+                font-size: 15px;
+            }
+            .header-contact-info .email-book i{
+                margin: 0;
+            }
+            .header-top-section .header-contact-info .phone-book p,
+            .header-top-section .header-contact-info .email-book p,
+            .header-top-section .header-contact-info .facebook-id p,
+            .header-top-section .header-contact-info .skype-id p 
+            {
+                font-size: 15px;
+                margin-top: 12px;
+            }
+            .hire-me-section .hire-me button {
+                width: 80px;
+                height: 30px;
+                top: 6px;
+                right: 20px;
+                font-size: 14px;
+                
+            }
+            .hire-me-section .hire-me button i {
+                font-size: 15px;
+                margin-left: 6px;
+            }
+    /* top header area responsive design end */
+    /* main header area responsive design start */
+        .name {
+            width: 11%;
+        }   
+        .header .brand-name {
+            font-size: 20px;
+            font-weight: 800;
+            margin: 11px 0px;
+            color: #34495e;
+        }
+        .header .brand-name span{
+            font-size: 28px;
+            font-weight: 500;
+        }
+        .image {
+            width: 7%;
+            margin-top: -5px;
+        }
+        .menu {
+            box-sizing: border-box;
+            width: 82%;
+          }
+          .main-menu ul li{
+            padding: 14px 3px;
+        }
+        .main-menu ul li a{
+            font-size: 13px;
+        }
+        .main-menu  ul li:last-child{
+            padding-right: 23px;
+        }
+        .header-image img {
+            width: 45px;
+            height: 52px;
+            margin: 5px 0px 0 5px;
+        }
+    
+    /* main header area responsive design end */
+
+    /* main cover section design start */
+    .main .cover-images {
+        width: 100%;
+        height: 400px;
+    }
+    .main .slider-text{
+        width: 400px;
+        margin: 0 auto;
+    
+    }
+    .main .text-box{
+        font-size: 17px;
+        letter-spacing: 1px;
+        line-height: 26px;
+        padding-top: 80px;
+        overflow: hidden;
+    }
+    .main .text-box p{
+        font-size: 14px;
+        margin-top: 50px;
+    }
+    .main .text-box h1{
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .main .text-box a{
+        border-radius: 6px;
+        border: 2px solid #b2bec3;
+    }
+   
+    
+    .main .text-box .btn{
+        font-weight: 600;
+        float: left;
+        margin-left: 25px; 
+    }
+    .main .button-design a{
+        float: left;
+    }
+    .main .button-design {
+        display: inline-block;
+        width: 1000px;
+        
+    }
+    /* main cover section design end */
+    /* Specification design start */
+
+    .specification .heading-design::before {
+        left: 396px;
+    }
+    .specification .heading-design::after {
+        right: 396px;
+    }
+    .specification .service-header {
+        float: left;
+        width: 212px;
+        border: 2px solid #0984e3;
+        box-sizing: border-box;
+        padding: 10px;
+        margin: 4px 9px;
+        box-shadow: 3px 4px 4px #a4b0be;
+    }
+    .specification .service-header h1 {
+        font-size: 24px;
+        font-weight: 400;
+        margin: 5px 0;
+    }
+    .specification .service-header:hover{
+        box-shadow: 5px 5px 7px 5px#747d8c;
+    }
+    .specification .active{
+        box-shadow: 5px 5px 7px 5px#747d8c;
+        
+    }
+
+
+    /* Specification design start */
+    /* qualification section design start */
+    .qualification .heading-design::before {
+        left: 396px;
+    }
+    .qualification .heading-design::after {
+        right: 396px;
+    }
+    .qualification .university-list {
+        float: left;
+        width: 52%;
+        overflow: hidden;
+    }
+    .qualification .feature-image{
+        width: 48%;
+        float: left;
+        background-color: #fff;
+        margin-top: 70px;
+        box-sizing: border-box;
+    }
+    .qualification .feature-image img{
+        width: 350px;
+        height: auto;
+    }
+    .qualification .masters-degree, .qualification .bechalor-degree, .qualification .college-degree, .qualification .school-degree{
+        width: 90%;
+        margin: 5px auto;
+        overflow: hidden;
+    }
+    .qualification .edu-img{
+        float: left;
+        margin-right: 12px;
+        width: 100px;
+        height: auto;
+        border-radius: 10px;
+    }
+    .qualification .degree-heading{
+        font-size: 15px;
+        color: #0984e3;
+    
+    }
+    .qualification .university-list h2{
+        font-size: 14px;
+        font-weight: 400;
+        color: #2f3542;
+    }
+    .qualification .university-list h3{
+        font-size: 15px;
+    }
+    .qualification .university-list p{
+        margin-bottom: 3px;
+    }
+    .qualification .line{
+        width: 90%;
+        height: 1px;
+        background: #0f5488;
+        margin: 0 auto;
+    }
+    .qualification .rslt{
+        background: #0984e3;
+        width: 120px;
+        height: 30px;
+        text-align: center;
+        border-radius: 8px;
+        display: inline-block;
+        color: #fff;
+        font-size: 14px;
+        line-height: 26px;
+        font-weight: bold;
+    }
+    .qualification .ssc{
+        margin-left: 106px;
+    }
+    /* qualification section design end */
+
+    /* skill section design start*/
+    .skilled-area .skilled-heading::before {
+        top: 67px;
+        left: 377px;
+    }
+    .skilled-area .skilled-heading::after{
+        top: 67px;
+        right: 377px;
+    }
+    .skilled-area .skilled-main-area{
+        width: 85%;
+        border-radius: 8px;
+        padding: 5px;
+    }
+    .skilled-area .skilled-main-area .progress{
+    width: 80%;
+    background: #000;
+    border-radius: 8px;
+    /* margin: 18px; */
+    height: 15px;
+    float: left;
+    margin: 10px auto;
+    box-sizing: border-box;
+    }
+    .skilled-area .skilled-main-area .progress-bar{
+        width: 0%;
+        background: rgb(79, 54, 221);
+        border-radius: 8px;
+        height: 100%;
+    }
+    .skilled-area .box .skilled-text{
+        float: left;
+        width: 15%;
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .skilled-area .skilled-main-area .progress-bar .html-percentage,
+    .skilled-area .skilled-main-area .progress-bar .css-percentage,
+    .skilled-area .skilled-main-area .progress-bar .js-percentage,
+    .skilled-area .skilled-main-area .progress-bar .jquery-percentage,
+    .skilled-area .skilled-main-area .progress-bar .bootstrap-percentage,
+    .skilled-area .skilled-main-area .progress-bar .php-percentage,
+    .skilled-area .skilled-main-area .progress-bar .ajax-percentage,
+    .skilled-area .skilled-main-area .progress-bar .sql-percentage,
+    .skilled-area .skilled-main-area .progress-bar .wp-percentage{
+        line-height: 16px;
+        color: #34ace0;
+    }
+    .skilled-area .box .bg-html{
+        background: green;
+    }
+    .skilled-area .box .bg-css{
+    background: #ff6b6b;
+    }
+    .skilled-area .box .bg-js{
+    background: #01a3a4;
+    }
+    .skilled-area .box .bg-jq{
+    background: #f368e0;
+    }
+    .skilled-area .box .bg-bootstrap{
+    background: #222f3e;
+    }
+    .skilled-area .box .bg-php{
+    background: #5f27cd;
+    }
+    .skilled-area .box .bg-ajax{
+    background: #1dd1a1;
+    }
+    .skilled-area .box .bg-sql{
+    background: #ff9f43;
+    }
+    .skilled-area .box .bg-wp{
+    background: #c8d6e5;
+    }
+    /*skill design end*/
+
+    /* testimonial area design start*/
+    .testimonial .testimonial-header::before {
+        left: 377px;
+    }
+    .testimonial .testimonial-header::after {
+        right: 377px;
+    }
+    .testimonial .chairman-area .testimonial-details .quote-design {
+        padding: 0px 0px;
+        width: 75%;
+        margin: 0 auto;
+    }
+    .testimonial .testimonial-design {
+        width: 95%;
+    }
+    .testimonial .chairman-area .testimonial-details  h1,.testimonial .humayan-area .testimonial-details  h1{
+        font-size: 18px;
+        line-height: 20px;
+
+    }
+    .testimonial .chairman-area .testimonial-details  h2, .testimonial .humayan-area .testimonial-details  h2{
+        font-size: 14px;
+    }
+    .testimonial .chairman-area .testimonial-details  h3, .testimonial .humayan-area .testimonial-details  h3{
+        font-size: 13px;
+    }
+    .testimonial .chairman-area .testimonial-details  p, .testimonial .humayan-area .testimonial-details  p{
+        font-size: 14px;
+    }
+    .testimonial .chairman-area .testimonial-details .quote-design{
+        padding: 10px 20px;
+        width: 75%;
+        margin: 0 auto;
+    }
+    .testimonial .testimonial-details .quote-design span i{
+        font-size: 25px;
+    }
+    .testimonial .humayan-area .testimonial-details .quote-design{
+        background: #fff;
+        padding: 10px 20px 12px;
+        width: 75%;
+        margin: 0px auto;
+    }
+    .testimonial .testimonial-details strong{
+        color: #01a3a4;
+        font-size: 20px;
+    }
+    .testimonial .humayan-area-design .line1 {
+        top: 275px;
+        left: 84px;
+    }
+    .testimonial .humayan-area-design .line4 {
+        top: 272px;
+        left: 9px;
+    }
+    .testimonial .humayan-area-design .line3 {
+        width: 115px;
+        top: 349px;
+        left: 7px;
+    }
+    .testimonial .humayan-area-design .line2 {
+        top: 351px;
+        left: 84px;
+        rotate: 132deg;
+    }
+    /* testimonial area design end*/
+    /* Footer top design start */
+    .footer .footer-design .footer-brand-area .social-icons ul li {
+        padding: 4px 4px;
+        margin: 10px 3px;
+    }
+    .footer .footer-design .footer-brand-area .social-icons {
+        width: 100%;
+    }
+    .footer .address-details .address-text p {
+        line-height: 22px;
+
+    }
+}
+/* Footer top design end */
+
+
+
+@media only screen and (max-width: 576px){
+
+
+        /* Responsive design for mobile screen desigin */
+        .header-top .header-logo {
+            width: 0%;
+            /* float: left;
+            box-sizing: border-box; */
+        }
+        .header-contact-info {
+            width: 90%;
+            margin: 0px auto;
+            padding: 0 0 13px;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        .header-contact-info .phone-book i, .header-contact-info .email-book i, .header-contact-info .facebook-id i, .header-contact-info .skype-id i {
+            font-size: 13px;
+            margin: 0 0 0 57px;
+        }
+        .header-contact-info .email-book  i{
+            margin: 0 0 0 90px;
+        }
+        .header-contact-info .skype-id i{
+            margin: 0 0 0 35px;
+        }
+         .facebook-address{
+            width: 21%;
+            margin: 0 0px;
+        }
+        .email-details{
+            width: 31%;
+            margin-left: 0;
+        }
+        .phone-details{
+            width: 22%;
+        }
+        .header-top-section .header-contact-info .phone-book p, .header-top-section .header-contact-info .email-book p, .header-top-section .header-contact-info .facebook-id p, .header-top-section .header-contact-info .skype-id p {
+            font-size: 13px;
+            margin-top: 12px;
+        }
+        .skype-address{
+            width: 20%;
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+        .header-contact-info .skype-id{
+            width: 90%;
+        }
+        .hire-me-section .hire-me button {
+            width: 65px;
+            height: 22px;
+            top: 20px;
+            right: 4px;
+            font-size: 12px;
+            transition: 0.5s;
+        }
+        .hire-me-section .hire-me button:hover{
+            transform: scale(1.1);
+            
+        }
+        .header-top .header-logo img {
+            margin: 13px 0;
+            width: 40px;
+            height: 40px;
+
+        }
+
+
+        /* hamburger menu design in main header design */
+        .container-header {
+
+             margin-top: 0px;
+        }
+
+         /* demo practice hamburger menu */
+         .menu{
+            width: 80%;
+            height: 300px;
+        }
+         .menu{
+            width: 100%;
+            /* height: 500px; */
+            background: #262626;
+            position: fixed;
+            top: 0;
+            right: -600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 0% 0 0 50%;
+            transition: 0.8s all ease;
+        }
+        .hamburger-menu {
+            width: 25px;
+            height: 22px;
+            position: fixed;
+            top: 99px;
+            right: 58px;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .line{
+            height: 2px;
+            width: 100%;
+              background: #0984e3;
+              transition: 0.8s all ease;
+        
+        
+        }
+        .nav-list{
+           text-align: right;
+        }
+       .menu .nav-item{
+            list-style: none;
+            margin: 5px;
+        }
+        .menu .nav-link{
+            text-decoration: none;
+            font-size: 12px;
+            color: #fff;
+            padding: 3px 0;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            font-weight: 300;
+            position: relative;
+        }
+        .nav-link::before,
+        .nav-link::after{
+            content: '';
+            width: 100%;
+            height: 2px;
+            background-color: #222f3e;
+            position: absolute;
+            left: 0;
+            transform: scale(0);
+            transition: 0.5s all ease;
+        } 
+        .nav-link::before{
+            top: 0;
+            transform-origin: left;
+        }
+        .nav-link::after{
+            bottom: 0;
+            transform-origin: right;
+        }
+        .nav-link:hover::before,.nav-link:hover::after{
+            transform: scale(1);
+        }
+        .change .line-1{
+            transform: rotateZ(-405deg) translate(-8px, 6px);  
+            
+        }
+        .change .line-3{
+            transform: rotateZ(405deg) translate(-8px, -6px);
+            
+        }
+        .change .line-2{
+            opacity: 0;
+        }
+        .change{
+            right: 0;
+        }
+        .header .name{
+            width: 26%;
+        }
+        .header .brand-name span {
+            font-size: 38px;
+            font-weight: 600;
+            color: #2980b9;
+        }
+        .header .brand-name {
+            font-size: 32px;
+            font-weight: 300;
+        }
+        .image {
+            width: 40%;
+            margin: -2px 74px;
+        }
+        .header-image img {
+            width: 49px;
+            height: 52px;
+            margin: 15px 0px 0 44px;
+        }
+        /* qualificationdection design */
+        .specification .heading-design {
+            font-size: 24px;
+            color: #0984e3;
+            padding-top: 15px;
+        }
+        .specification .sp-heading {
+            width: 100%;
+            position: relative;
+        }
+        .specification .heading-design::before {
+            content: '';
+            width: 67px;
+            height: 3px;
+            background: #34495e;
+            position: absolute;
+            top: 50px;
+            left: 300px;
+        }
+        .specification .heading-design::after {
+            content: '';
+            width: 67px;
+            height: 3px;
+            background: #34495e;
+            position: absolute;
+            top: 50px;
+            right: 300px;
+        }
+        .specification .circle i {
+            font-size: 17px;
+            margin-bottom: 0px;
+            /* display: inline-block; */
+        }
+        .specification .service-header {
+            width: 97%;
+            margin: 6px 9px;
+        }
+
+        /* specification design  end*/
+        /* qualification design  start*/
+        .qualification .heading-design {
+            font-size: 24px;
+            padding-top: 15px 0;
+            position: relative;
+        }
+        .qualification .ql-heading .circle i {
+            font-size: 17px;
+        }
+        .qualification .heading-design::before{
+            width: 103px;
+            height: 3px;
+            top: 36px;
+            left: 300px;
+        }
+        .qualification .heading-design::after {
+            width: 103px;
+            height: 3px;
+            top: 36px;
+            right: 300px;
+        }
+        .qualification .university-list {
+            width: 100%;
+        }
+        .qualification .ssc {
+            margin-left: 0;
+        }
+        .qualification .feature-image {
+            width: 100%;
+        }
+        .qualification .feature-image img {
+            width: 100%;
+            height: auto;
+        }
+        /* qualification design  end*/
+        /* skilled area  design  start*/
+        .skilled-area .skilled-heading {
+            font-size: 24px;
+            position: relative;
+        }
+        .skilled-area .skilled-heading::before{
+            width: 53px;
+            height: 3px;
+            top: 36px;
+            left: 287px;
+        }
+        .skilled-area .skilled-heading::after{
+            width: 53px;
+            height: 3px;
+            top: 36px;
+            right: 287px;
+        }
+        .skilled-area .main-skilled .circle i {
+
+            font-size: 17px;
+            display: block;
+            margin-bottom: 20px;
+        }
+        .skilled-area .box .skilled-text {
+            width: 16%;
+            font-size: 12px;
+            font-weight: 400;
+        }
+        /* skilled area  design  end*/
+        /* testimonial section design start */
+        .testimonial .testimonial-header{
+            position: relative;
+        }
+        .testimonial .testimonial-header h1 {
+            font-size: 24px;
+            padding-top: 15px;
+        }
+        .testimonial .testimonial-header::before{
+            width: 80px;
+            height: 3px;
+            top: 49px;
+            left: 287px;
+        }
+        .testimonial .testimonial-header::after{
+            width: 80px;
+            height: 3px;
+            top: 49px;
+            right: 287px;
+        }
+        .testimonial .circle i {
+            font-size: 17px;
+        }
+        .testimonial .chairman-area .testimonial-details h1, .testimonial .humayan-area .testimonial-details h1 {
+            font-size: 14px;
+            line-height: 18px;
+        }
+        .testimonial .chairman-area-design, .testimonial .humayan-area-design {
+            width: 34%;
+        }
+        .testimonial .testimonial-details .quote-design span i {
+            font-size: 23px;
+        }
+        .testimonial .humayan-area {
+            margin-top: 12px;
+        }
+        .testimonial .chairman-area .testimonial-details .quote-design, .testimonial .humayan-area .testimonial-details .quote-design {
+            width: 70%;
+        }
+
+        /* testimonial section design end */
+        /* footer design start */
+        .footer .footer-brand-area {
+            width: 100%;
+        }
+        .footer .footer-design .footer-brand-area .social-icons {
+            margin-left: 156px;
+        }
+        .footer .quick-access {
+            width: 21%;
+        }
+        .footer .services-link {
+            width: 32%;
+        }
+        .footer .contact-details {
+            width: 39%;
+            float: left;
+            box-sizing: border-box;
+        }
+        .footer .address-details .address-text p {
+            font-size: 14px;
+            color: #222f3e;
+            line-height: 26px;
+            border-bottom: 1px solid #000;
+        }
+        .footer .address-details .address-text {
+            width: 88%;
+        }
+
+        /* footer design end */
+        
+}
